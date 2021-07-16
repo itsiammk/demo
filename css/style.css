@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* min-height: 1000px; */
+    background: #ffffff;
+}
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 100px;
+    transition: 0.6s;
+    z-index: 1;
+    box-shadow: 0 0 13px rgba(1, 5, 70, 0.9);
+    background: #000111f5;
+    border-bottom: rgba(0, 0, 0, 0.5);
+    
+}
+header .logo{
+    position: relative;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 32px;
+    letter-spacing: 2px;
+    transition: 0.6s;
+    
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    /* padding: 0 5px; */
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.6s;
+
+}
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url("../images/blue1.jpg");
+    /* opacity: 0.2; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li a:hover{
+    color: rgb(0, 0, 133);
+    background: #ffffff;
+    padding: 15px 20px;
+    border-radius: 40px;
+    margin: 15px 20px;
+    font-size: 120%;
+}
+.logo:hover{
+    color: #00deff;
+    font-size: 220%;
+    font-weight: bolder;
+    
+}
+.banner h2{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1em;
+    transition: 0.6s;
+    
+}
+.banner h2 #dev{
+    font-size: 90px;
+    line-height: 2em;
+    color: #00fffc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    background: rgba(255, 255, 255, 0.04);
+    border-bottom: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    padding: 5px 20px;
+    transition: 0.6s;
+}
+
+section h2 #exp{
+
+    text-align: center;
+    
+}
+section h2 span a{
+    text-decoration: none;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    background: rgba(255, 255, 255, 0.04);
+    border-bottom: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    padding: 13px 50px;
+    transition: 0.6s;
+}
+section h2 span a:hover{
+    font-size: 105%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.685);
+    background: #ffffff;
+    color: rgb(0, 0, 133);
+    font-weight: 1000;
+    letter-spacing: 5px;
+}
+.sec{
+    transition: 0.6s;
+    background: #ffffff;
+    padding: 100px;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.sec .content{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.mw{
+    margin: 0 auto;
+}
+h3{
+    font-size: 60px;
+    font-weight: 1000;
+    margin-bottom: 15px;
+}
+p{
+    font-size: 25px;
+    margin: 20px 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.btn{
+    text-decoration: none;
+    padding: 15px 25px;
+    background: #000000;
+    color: #ffffff;
+    display: inline-block;
+    /* margin: 0px; */
+    transition: 0.6s;
+}
+.btn:hover{
+    font-size: 120%;
+    letter-spacing: 3px;
+    padding: 20px 30px;
+    border-radius: 50px;
+    font-weight: 1000;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+    margin: 0px 10px;
+}
+.skill{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px  , 1fr));
+    grid-gap: 30px;
+    max-width: 100%;
+    margin-top: 40px;
+
+}
+.skill .names{
+    position: relative;
+    background: linear-gradient(rgb(31, 245, 31) , #86ff6654);
+    min-height: 300px;
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+    box-shadow: 0 0 10px rgba(86, 255, 71, 0.801);
+    border-radius: 70px;
+    /* background: rgba(255, 255, 255, 0.04); */
+}
+.skill a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #0016db;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.skill .names:hover{
+    background: linear-gradient(rgb(31, 142, 245) , #66c2ff54);
+    transition: 0.6s;
+    box-shadow: 0 0 20px rgba(71, 120, 255, 0.801);
+    border-radius: 0px;
+}
+
+.teambx{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px  , 1fr));
+    grid-gap: 30px;
+    max-width: 100%;
+    margin-top: 40px;
+    
+}
+.teambx .member{
+    position: relative;
+    background: #fff;
+    min-height: 300px;
+    width: 250px;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.teambx .member .imgbx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.teambx .member .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.801);
+}
+.teambx .member .details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    transition: 0.4s;
+    opacity: 0;
+}
+.teambx .member:hover .details{
+    opacity: 1;
+}
+.teambx .member .details h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 2px;
+    transition: 0.6s;
+    text-align: center;
+}
+.secc h3 .hhh{
+    font-size: 85px;
+    width: 100%;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 20px;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+    color: #000;
+    letter-spacing: 2px;
+}
+#contactus{
+    background: #000;
+    min-height: 570px;
+    margin-top: 30px;
+    padding-top: 120px;
+    align-items: center;
+    text-align: center;
+}
+#contactus h3{
+    color: rgb(4, 50, 255);
+    font-size: 70px;
+    font-size: 50px;
+    
+}
+#contactus h3 span{
+    font-size: 70px;
+}
